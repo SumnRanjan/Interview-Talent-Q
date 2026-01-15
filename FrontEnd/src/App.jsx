@@ -6,7 +6,7 @@ import HomePage from "./Pages/HomePage";
 import ProblemsPage from "./Pages/ProblemsPage";
 
 function App() {
-  const { isSignedIn } = useUser(); // ✅ MUST call the hook
+  const { isSignedIn } = useUser();
 
   return (
     <>
