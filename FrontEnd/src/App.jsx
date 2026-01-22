@@ -4,7 +4,7 @@ import { useUser } from "@clerk/clerk-react";
 import { Toaster } from "react-hot-toast";
 import HomePage from "./Pages/HomePage";
 import ProblemsPage from "./Pages/ProblemsPage";
-import DashboardPage from "./Pages/DashboardPage"
+import DashboardPage from "./Pages/DashBoardPage";
 
 function App() {
   const { isSignedIn , isLoaded } = useUser();
