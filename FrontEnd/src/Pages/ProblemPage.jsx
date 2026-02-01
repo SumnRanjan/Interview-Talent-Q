@@ -4,7 +4,7 @@ import { PanelGroup, Panel, PanelResizeHandle} from "react-resizable-panels";
 import toast from "react-hot-toast";
 import confetti from "canvas-confetti";
 
-import { PROBLEMS } from "../../data/problems";
+import { PROBLEMS } from "../data/problems";
 import { executeCode } from "../lib/piston";
 
 import Navbar from "../components/Navbar";
@@ -145,7 +145,7 @@ function ProblemPage() {
 
               {/* Bottom panel - Output Panel*/}
 
-              <Panel defaultSize={40} minSize={30}>
+              <Panel defaultSize={30} minSize={30}>
                 <OutputPanel output={output} />
               </Panel>
             </PanelGroup>
